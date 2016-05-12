@@ -4,10 +4,7 @@
 <link rel="icon" 
       type="image/jpeg" 
       href="logo.jpg">
-<script type="text/javascript" src="js/jquery-1.10.2.min.js">
-</script>
-<script type="text/javascript" src="js/visuals.js">
-</script>
+<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
 <link rel="stylesheet" type="text/css" href="css/header_style.css">
 <meta charset="utf-8">
 <title>Tag Generator</title>
@@ -16,7 +13,6 @@
 <body>
 
 <div id="mainForm">
-
     <div id="ailogo">
     </div>
     <div class="formInfo">
