@@ -7,54 +7,42 @@ body {
 	margin-left:auto;
 	margin-right:auto;
 	padding:15px;
-	width:400px;
+	width:600px;
 	border:2px solid black;
 }
-.formElements {
-	width:500px;
-}
 
-.formElements span {
-	
-	float:left;
-}
-
-.formInfo {
-	float:left;
-	width:100px;
-	height:580px;
-}
-.formInfo p {
-	font-size:12px;
-	margin-bottom:25px;
-}
 
 .clear {
 	clear:both;
 }
-.nameInput{
-	width:180px;
-	margin-right:10px;
+
+.form-item label {
+    display:inline-block; 
+    width:180px;
 }
 
-.numberInput {
-	width:50px;
+.form-item .inputs {
+    display:inline-block;    
+}
+.form-item .inputs .name {
+    width:300px;  
+    display:inline-block;
+    margin-right:20px;
 }
 
-.serialInput {
-	width:130px;
+.form-item .inputs .number {
+    width:50px;
+    margin-left:-10px;
 }
-.edmcInput {
-	width:50px;
+.form-item .inputs .hash {  
+    margin-left: -15px;
+    padding-right: 20px;
+    background-color: white;
 }
-
 input  {
-margin: 10px 10px 0px 10px;
+margin: 5px;
 border: 1px solid #999;
 height: 25px;
--webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
--moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
 }
 
 #ailogo {
@@ -75,7 +63,7 @@ background-position:center;
 #submitBTN {
 	margin-left:auto;
 	margin-right:auto;
-	width:400px;
+	width:100px;
 	-moz-box-shadow:inset 0px 1px 0px 0px #f5978e;
 	-webkit-box-shadow:inset 0px 1px 0px 0px #f5978e;
 	box-shadow:inset 0px 1px 0px 0px #f5978e;
@@ -103,6 +91,7 @@ background-position:center;
 	text-decoration:none;
 	text-align:center;
 	text-shadow:1px 1px 0px #810e05;
+    float:right; 
 }
 #submitBTN:hover {
 	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #c62d1f), color-stop(1, #f24537) );
@@ -112,10 +101,4 @@ background-position:center;
 }#submitBTN:active {
 	position:relative;
 	top:1px;
-}
-
-#loopNumber {
-        margin-left: 107px;
-    top: -26px;
-    position: relative;
 }

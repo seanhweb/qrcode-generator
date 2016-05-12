@@ -1,0 +1,5 @@
+[submodule "vendor"]
+	url = https://github.com/t0k4rt/phpqrcode.git
+	path = vendor
+        ignore = dirty
+
