@@ -15,7 +15,7 @@
 
 <div id="mainForm">
     <div id="ailogo"></div>
-    <form name="tagForm" action="tag.php">
+    <form name="tagForm" action="tag.php" method="POST">
         <?php
             Form::generate_row('package_name', 'Package Name', 1);
             Form::generate_row('serial', 'Serial Number', 0);
@@ -25,7 +25,8 @@
         <?php for($x=1;$x<10;$x++): ?>
             <?php Form::generate_row('item_'.$x, 'Item '.$x, 1); ?>
         <?php endfor; ?>
-            <input type="submit" id="submitBTN">
+        <input type="submit" id="submitBTN">
+        <div class="clear"></div>
     </form>
 </div>
 
