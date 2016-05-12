@@ -23,7 +23,7 @@
         ?>
         <hr>
         <?php for($x=1;$x<10;$x++): ?>
-            <?php Form::generate_row('item_'.$x, 'Item '.$x, 1); ?>
+            <?php Form::generate_row('items', 'Item '.$x, 1); ?>
         <?php endfor; ?>
         <input type="submit" id="submitBTN">
         <div class="clear"></div>
