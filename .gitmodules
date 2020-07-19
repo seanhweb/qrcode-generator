@@ -1,5 +1,5 @@
-[submodule "vendor"]
+[submodule "thirdparty"]
 	url = https://github.com/t0k4rt/phpqrcode.git
-	path = vendor
+	path = thirdparty
         ignore = dirty
 

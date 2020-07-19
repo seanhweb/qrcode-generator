@@ -1,5 +1,5 @@
 <?php
-include "vendor/qrlib.php";
+include "thirdparty/qrlib.php";
 include "class.inc.php";
 FS_Operation::clear_tmp(); 
 ?>
