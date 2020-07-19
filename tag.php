@@ -10,7 +10,7 @@ FS_Operation::clear_tmp();
     <link type="text/css" rel="stylesheet" href="css/style.css">
     <title>
         <?php 
-            echo 'Tag Generator- ' . $_POST['package_name'] . '';
+            echo 'Tag Generator- ' . $_POST['package_name'][0] . '';
         ?>
     </title>
 </head>
