@@ -1,4 +1,3 @@
-
 <div class="form-item">
     <label for="<?php print $name;?>"><?php print $friendly_name;?></label>
     <div class="inputs">
