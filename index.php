@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <?php include('class.inc.php'); ?>
 <html>
 <head>
